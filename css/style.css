@@ -1,11 +1,21 @@
 html {
     height: 100%;
-    background-color: red;
+    background-color: white;
+    font-family: courier;
+}
+.header{
+    font-family: 'Arapey';font-size: 22px;
 }
 
 body {
     height: 100%;
     background-color: white;
+    word-wrap:break-word;
+}
+.smallpic{
+     height:30%;
+     width:30%;
+   word-wrap:break-word;
 }
 a {
     text-decoration: none;
@@ -13,17 +23,20 @@ a {
 
 .main {
     height: 100%;
+    text-align:center;
+}
+.largepic{
+   text-align:center;
+   border:solid black 10px;
+   width:95%;
+   padding:20px;
+ 
 }
 .social-image{
     width: 30px;
     margin: 15px;
 }
-.gallery{
-    display: flex;
-    justify-content:space-around;
-    width: 5px;
-    height:10px;
-}
+
 .header{
     display:flex;
 }
@@ -31,7 +44,20 @@ a {
 .navbar{
     display:flex;
     justify-content:Space-around;
-    border:solid red;
+    text-align:center;
+      color:black;
+ 
+    
+}
+.gallery{
+    display:flex;
+   width:100px;
+   flex-flow: row wrap;
+}
+.thumbnail{
+    text-align:center;
+     margin: 5px;
+    width: 100px;
 }
 .footer{
     display: flex;
